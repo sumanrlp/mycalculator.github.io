@@ -1,0 +1,57 @@
+#main {
+    height: 40vw;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    background-color: chartreuse;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#screen {
+    height: 6vw;
+    width: 90%;
+    margin-top: 1vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#buttons {
+    display: flex;
+    height: 25vw;
+    width: 90%;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    justify-content: center;
+    align-content: center;
+    
+}
+button {
+    height: 5vw;
+    width: 5vw;
+    margin: 1vw;
+    font-size: 1.7vw;
+}
+#nobuttons {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    
+    flex-wrap: wrap;
+}
+.funbutton {
+    height: 100%;
+    width: 19%;
+    
+}
+button:hover {
+    box-shadow: 0 0 3px black;
+}
